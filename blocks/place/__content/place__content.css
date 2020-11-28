@@ -3,3 +3,10 @@
     justify-content: space-between;
     margin-top: 48px;
 }
+
+@media screen and (max-width: 320px) {
+    .place__content {
+    margin-top: 32px;
+    flex-direction: column;
+    }
+}

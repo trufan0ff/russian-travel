@@ -1,8 +1,29 @@
 .cover {
     display: flex;
-    max-width: 1184px;
+    max-width: 1280px;
     height: 740px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        max-width: 1024px;
+        height: 640px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        max-width: 768px;
+        height: 480px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .cover {
+        max-width: 320px;
+        height: 200px;
+    }
 }

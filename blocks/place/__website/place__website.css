@@ -3,4 +3,24 @@
     flex-direction: column;
     justify-content: flex-end;
     margin: 0 0 0 40px;
+    width: 456px;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__website {
+        margin: 0 0 0 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__website {
+        margin: 0 0 0 28px;
+        width: 352px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__website {
+        display: none;
+    }
 }

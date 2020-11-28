@@ -4,8 +4,30 @@
     align-items: center;
     max-width: 1184px;
     max-height: 18px;
-    margin: 0 auto;
-    padding: 92px 48px 24px;
+    margin: 92px auto 0;
+    padding: 0 48px 24px;
     background-color:  #2A2C2F;
     color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer {
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        max-width: 186px;
+        flex-direction: column;
+        max-height: 310px;
+        margin: 64px 0 0 16px;
+        padding: 0;
+    }
 }

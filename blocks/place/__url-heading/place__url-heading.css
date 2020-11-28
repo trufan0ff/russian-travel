@@ -3,4 +3,17 @@
     color: #aaa;
     font-size: 12px;
     line-height: 100%;
+    letter-spacing: 0.2em;
+}
+
+@media screen and (max-width: 1024px) {
+    .place__url {
+        line-height: 170%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .place__url {
+        line-height: 100%;
+    }
 }

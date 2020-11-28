@@ -3,3 +3,13 @@
     grid-template-columns: 50px 57px 94px 86px 106px;
     gap: 18px;
 }
+
+@media screen and (max-width: 320px) {
+    .footer__links {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-self: start;
+        margin-bottom: 48px;
+    }
+}
