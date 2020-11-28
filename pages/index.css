@@ -2,13 +2,13 @@
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
 @import "../blocks/header/__logo/header__logo.css";
-@import "../blocks/header/__lang-link/_en/header__lang-link_en.css";
-@import "../blocks/header/__lang-link/_ru/header__lang-link_ru.css";
+@import "../blocks/header/__lang-link/_lang/lang-link_lang_en.css";
+@import "../blocks/header/__lang-link/_lang/lang-link_lang_ru.css";
 @import "../blocks/header/__lang-link/header__lang-link.css";
 @import "../blocks/lead/__title/lead__title.css";
 @import "../blocks/lead/__subtitle/lead__subtitle.css";
 @import "../blocks/lead/__image/lead__image.css";
-@import "../blocks/lead/__image/_compartment/lead__image_compartment.css";
+@import "../blocks/lead/image-compartment.css";
 @import "../blocks/lead/__caption/lead__caption.css";
 @import "../fonts/Inter/inter.css";
 @import "../blocks/intro/__list/intro__list.css";
