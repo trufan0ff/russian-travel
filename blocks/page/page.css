@@ -3,7 +3,7 @@
    max-width: 1280px;
    margin: 0 auto;
    color: #fff;
-   font-family: Inter;
+   font-family: "Inter", "Arial", sans-serif;
    padding: 28px 0 0;
    -webkit-font-smoothing: antialiased;
 }
