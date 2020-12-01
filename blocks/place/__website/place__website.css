@@ -15,11 +15,11 @@
 @media screen and (max-width: 768px) {
     .place__website {
         margin: 0 0 0 28px;
-        width: 352px;
+        max-width: 352px;
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .place__website {
         display: none;
     }

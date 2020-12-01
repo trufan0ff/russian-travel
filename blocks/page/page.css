@@ -1,5 +1,4 @@
 .page {
-   
    max-width: 1280px;
    margin: 0 auto;
    color: #fff;
@@ -23,6 +22,6 @@
 @media screen and (max-width: 320px) {
    .page {
       max-width: 320px;
-      padding: 24px 0 0;
+      padding: 24px 0;
    }
 }

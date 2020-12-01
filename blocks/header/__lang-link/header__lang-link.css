@@ -4,12 +4,12 @@
     font-size: 24px;
     line-height: 28px;
     text-align: right;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 540px) {
     .header__lang-link {
         font-size: 18px;
-    line-height: 111%;
+        line-height: 111%;
     }
 }
